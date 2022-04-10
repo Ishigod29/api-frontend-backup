@@ -4,7 +4,7 @@ module.exports = {
     'es2021': true,
     'node': true,
     'jest': true,
-    'cypress': true
+    'cypress/globals': true
   },
   'extends': [
     'eslint:recommended',
@@ -18,7 +18,8 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'react'
+    'react',
+    'cypress'
   ],
   'rules': {
     'react/prop-types': 'off',
